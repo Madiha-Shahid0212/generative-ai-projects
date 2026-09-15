@@ -4,17 +4,14 @@ Submit this file:
 
 **[Madiha_Shahid_Resume.pdf](./Madiha_Shahid_Resume.pdf)**
 
-One page. Aimed at Generative AI / AI-ML intern and junior roles.
+Same original template (black text, underlined sections, title-case name). Only the AI skills and GenAI projects were added.
 
-## Links on the PDF
+## Links
 
-- Email, LinkedIn, and GitHub in the header are clickable.
 - LinkedIn: https://www.linkedin.com/in/madiha-shahid-a64091308/
 - GitHub: https://github.com/Madiha-Shahid0212
-- GenAI portfolio: https://github.com/Madiha-Shahid0212/generative-ai-projects
-
-## Rebuild after edits
 
 ```bash
 python3 resume/build_resume.py
 ```
+
