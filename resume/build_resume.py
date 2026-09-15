@@ -165,46 +165,44 @@ def main():
             c.drawString(x, y, gap)
             x += gw
 
-    y -= 18
+    y -= 16
     y = section(c, y, "Professional Summary")
     y = para(
         c,
         y,
-        "Final-year BS Computer Science student (KIET) with 6+ months of industry experience in AI/ML "
-        "development, computer vision, and full-stack engineering. Experienced in building ML models, "
-        "deploying AI applications using Google Vertex AI, and building Generative AI apps with LLMs, "
-        "prompt engineering, Gemini API, Django, and React.js. Working with RAG, LangChain, and Hugging Face "
-        "Transformers. Seeking internship or junior-level roles in AI/ML Engineering, Generative AI, or "
-        "Software Development.",
+        "Final-year BS Computer Science student (KIET, CGPA 3.6/4.0) with 6+ months shipping AI/ML "
+        "systems. Builds Generative AI apps around LLMs: prompt engineering, system/role prompts, "
+        "Chain-of-Thought, structured JSON output, and output validation (Gemini, Vertex AI). Trains "
+        "classical ML models and ships them in React, Django, and Streamlit. Expanding into RAG, "
+        "embeddings, LangChain, and Hugging Face Transformers. Seeking intern or junior Generative AI / AI/ML roles.",
     )
-    y -= 6
+    y -= 5
 
     y = section(c, y, "Education")
-    y = job_header(c, y, "BS Computer Science — KIET University, Karachi", "Expected 2027")
-    c.setFont(BODY, 9.2)
-    c.setFillColor(black)
-    c.drawString(LEFT, y, "CGPA: 3.6 / 4.0")
-    y -= 11.2
+    y = job_header(
+        c, y, "BS Computer Science — KIET University, Karachi  |  CGPA 3.6 / 4.0", "Expected 2027"
+    )
     y = job_header(
         c, y, "Intermediate (Computer Science) — NCR CET College, Karachi", "2021 – 2022"
     )
     y = job_header(c, y, "Matriculation — The Educators, Karachi", "2020")
-    y -= 5
+    y -= 4
 
     y = section(c, y, "Technical Skills")
     y = labeled(
         c,
         y,
-        "Generative AI:",
-        "LLMs, Prompt Engineering, RAG, LangChain, Hugging Face Transformers, Google Gemini API, "
-        "Vertex AI, Chain-of-Thought, Structured JSON Output, Embeddings",
+        "Generative AI concepts:",
+        "LLMs, Prompt Engineering, System / Role Prompts, Chain-of-Thought (CoT), Structured Output "
+        "(JSON), Output Validation, RAG, Embeddings, LangChain, Hugging Face Transformers, "
+        "Google Gemini API, Vertex AI",
     )
     y = labeled(
         c,
         y,
         "AI / Machine Learning:",
-        "Google Vertex AI, scikit-learn, Pandas, NumPy, Matplotlib, OpenCV, Computer Vision, NLP, "
-        "Model Evaluation, Feature Engineering, PyTorch",
+        "scikit-learn, PyTorch, Pandas, NumPy, Matplotlib, OpenCV, Computer Vision, NLP, "
+        "Feature Engineering, Model Evaluation",
     )
     y = labeled(c, y, "Programming Languages:", "Python, JavaScript, Java, C#")
     y = labeled(
@@ -217,7 +215,7 @@ def main():
         "Developer Tools:",
         "Git, GitHub, Docker, Jupyter Notebook, VS Code, Postman, Android Studio",
     )
-    y -= 5
+    y -= 4
 
     y = section(c, y, "Work Experience")
     y = job_header(c, y, "Junior AI/ML Developer · Swag Kicks", "Jan 2026 – Apr 2026")
@@ -226,81 +224,79 @@ def main():
         c,
         y,
         [
-            "Developed and deployed an AI-powered chatbot on Google Vertex AI, handling conversation flow design, model integration, and end-to-end testing.",
-            "Trained and evaluated Vertex AI models; assessed performance metrics and iterated on configuration prior to production deployment.",
-            "Created and validated bounding box annotations for computer vision datasets, ensuring labeling accuracy across training samples.",
-            "Led pre-deployment model testing, identified failure cases, and coordinated fixes to ensure production readiness.",
+            "Owned the production Vertex AI chatbot: designed conversation flow, connected the LLM, and ran end-to-end tests before release.",
+            "Trained and scored Vertex AI models, then retuned prompts and model settings from quality metrics until the bot was stable enough to deploy.",
+            "Labeled computer-vision data with bounding boxes and led pre-launch QA: logged failure cases, fixed them, and signed off production readiness.",
         ],
     )
-    y -= 2
+    y -= 1.5
     y = job_header(c, y, "AI/ML Intern · Swag Kicks", "Nov 2025 – Dec 2025")
     y = location_line(c, y, "Karachi, Pakistan")
     y = bullets(
         c,
         y,
         [
-            "Trained and evaluated ML classification models using scikit-learn; performed data preprocessing, feature extraction, and benchmarking.",
-            "Supported React.js and Node.js development to integrate ML model outputs into the application layer.",
+            "Built classification models in scikit-learn from raw tables: cleaning, feature extraction, train/test splits, and accuracy benchmarking.",
+            "Wired model predictions into the product through React.js and Node.js REST APIs so the UI could show live ML results.",
         ],
     )
-    y -= 2
+    y -= 1.5
     y = job_header(c, y, "Machine Learning Intern · Elevvo", "Sep 2025")
     y = location_line(c, y, "Remote")
     y = bullets(
         c,
         y,
         [
-            "Trained and benchmarked ML models on real-world datasets; improved performance through EDA, data cleaning, and hyperparameter tuning.",
-            "Built structured preprocessing pipelines handling missing values, outliers, and categorical encoding.",
+            "Ran the full ML loop on real datasets — EDA, cleaning, training, and hyperparameter tuning — to raise benchmark scores.",
+            "Wrote reusable preprocessing pipelines for missing values, outliers, and categorical encoding so training data stayed consistent.",
         ],
     )
-    y -= 5
+    y -= 3
 
     y = section(c, y, "Projects")
     y = project_header(
-        c, y, "Explain Like I'm a Bot", "React.js · Django · Gemini API · Prompt Engineering"
+        c, y, "Explain Like I'm a Bot", "React.js · Django · Gemini · Prompt Engineering"
     )
     y = bullets(
         c,
         y,
         [
-            "Built a full-stack Generative AI app that explains any topic in a chosen persona (Intern, Professor, Journalist, Executive), with spoken playback.",
-            "Designed system prompts per persona and a Django REST API consumed by a React.js frontend.",
+            "Full-stack LLM app: pick a persona and topic; Gemini explains it; the browser reads it aloud (Intern, Professor, Journalist, Executive).",
+            "System / role prompts: each persona has its own instruction (tone, length, no markdown) so one model speaks in four consistent voices.",
         ],
     )
     y = project_header(
         c,
         y,
         "Resume to Interview Questions Generator",
-        "Streamlit · Gemini API · Structured JSON",
+        "Streamlit · Gemini · Structured Output",
     )
     y = bullets(
         c,
         y,
         [
-            "Built an LLM app that turns resume text into validated JSON: skills, weak areas, interview questions, and difficulty.",
-            "Used strict prompt contracts and output validation so model text becomes usable structured data.",
+            "Gemini reads a resume and must return JSON only: name, skills, weak areas, 5–7 interview questions, and difficulty level.",
+            "Structured output + validation: JSON-mode prompting plus a schema parser that drops hallucinated or broken replies before the UI.",
         ],
     )
     y = project_header(
-        c, y, "Chain-of-Thought + Persona Reasoning", "Streamlit · Gemini API · Prompt Engineering"
+        c, y, "Chain-of-Thought + Persona Reasoning", "Streamlit · Gemini · CoT Prompting"
     )
     y = bullets(
         c,
         y,
         [
-            "Compared plain answers with persona-based step-by-step Chain-of-Thought reasoning on the same scenarios.",
+            "Same problem, two Gemini calls: a short direct answer vs. a persona (e.g. Sherlock Holmes) that must reason step by step (Chain-of-Thought + role prompting) so both can be compared.",
         ],
     )
     y = project_header(
-        c, y, "Jarvis – AI Voice Assistant", "Python · SpeechRecognition · pyttsx3 · gTTS · REST APIs"
+        c, y, "Jarvis – AI Voice Assistant", "Python · SpeechRecognition · pyttsx3 · REST APIs"
     )
     y = bullets(
         c,
         y,
         [
-            "Built a voice-controlled AI assistant with NLP-based intent parsing and speech recognition pipeline; adopted by classmates and received positive feedback.",
-            "Integrated REST APIs for live data retrieval (weather, news) and automated task execution via natural language voice commands.",
+            "Voice in → speech-to-text → NLP intent parse → tool call (weather/news REST APIs) → spoken reply; classmates used it as a daily assistant.",
         ],
     )
     y = project_header(
@@ -310,8 +306,7 @@ def main():
         c,
         y,
         [
-            "Built an Android app automating attendance via real-time face recognition using FaceNet and Google ML Kit.",
-            "Achieved reliable identification across varied lighting conditions through FaceNet embedding fine-tuning.",
+            "On-device attendance: ML Kit detects the face, FaceNet embeddings identify the student, blink check reduces spoofing; stays reliable in mixed lighting.",
         ],
     )
     y = project_header(
@@ -321,11 +316,10 @@ def main():
         c,
         y,
         [
-            "Built Random Forest classifier achieving highest validation accuracy across LR, Decision Tree, and RF via k-fold cross-validation.",
-            "Developed end-to-end preprocessing pipeline with feature engineering and missing-value imputation using scikit-learn and Pandas.",
+            "Compared Logistic Regression, Decision Tree, and Random Forest with k-fold CV; RF won. Pipeline handles imputation and feature engineering end-to-end.",
         ],
     )
-    y -= 5
+    y -= 3
 
     y = section(c, y, "Certifications")
     y = bullets(
