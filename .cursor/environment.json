@@ -1,0 +1,24 @@
+{
+  "name": "generative-ai-projects",
+  "user": "ubuntu",
+  "install": "bash .cursor/install.sh",
+  "terminals": [
+    {
+      "name": "django-backend",
+      "command": "source .venv/bin/activate && python explain-like-im-a-bot/backend/manage.py runserver 127.0.0.1:8000"
+    },
+    {
+      "name": "vite-frontend",
+      "command": "cd explain-like-im-a-bot/frontend && npm run dev"
+    },
+    {
+      "name": "streamlit-cot",
+      "command": "source .venv/bin/activate && streamlit run cot-persona-reasoning/app.py --server.port 8501 --server.address 127.0.0.1 --server.headless true"
+    },
+    {
+      "name": "streamlit-resume-interview",
+      "command": "source .venv/bin/activate && streamlit run resume-interview-generator/app.py --server.port 8502 --server.address 127.0.0.1 --server.headless true"
+    }
+  ],
+  "ports": [8000, 5173, 8501, 8502]
+}
