@@ -1,0 +1,15 @@
+Ticket ID: T-08
+Date: 2026-03-14
+Customer: Usman T.
+Subject: Entire NovaDesk site down for us
+Category: outage
+Priority: Critical
+Status: resolved
+
+Issue:
+At 09:10, Usman reported that login and ticket pages failed for his whole
+company. Status page later confirmed a regional outage.
+
+Resolution notes:
+Incident INC-219. Service restored at 10:05. First reply sent in 25 minutes.
+Gave Usman a 3-day service credit for the outage window.

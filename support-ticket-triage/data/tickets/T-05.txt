@@ -1,0 +1,16 @@
+Ticket ID: T-05
+Date: 2026-03-08
+Customer: Hina S.
+Subject: Need CSV export of all tickets
+Category: data
+Priority: Medium
+Status: resolved
+
+Issue:
+Hina is the workspace owner. She needs a CSV of tickets and comments for
+an internal audit next week.
+
+Resolution notes:
+Directed her to Settings > Export. Export finished in 6 hours. Reminded
+her not to forward the file to personal email. Audit copy stayed inside
+the company domain.

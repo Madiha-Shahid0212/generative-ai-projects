@@ -1,0 +1,16 @@
+Ticket ID: T-09
+Date: 2026-03-16
+Customer: Zara N.
+Subject: Delete our workspace
+Category: data
+Priority: Medium
+Status: resolved
+
+Issue:
+Zara is the workspace owner. She asked to delete the whole workspace and
+all ticket history after leaving the product.
+
+Resolution notes:
+Confirmed owner identity. Started deletion. Told Zara deletion finishes
+within 30 days and billing continues until she cancels the plan in Billing.
+Warned that restore is not possible after deletion completes.

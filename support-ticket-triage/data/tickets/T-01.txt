@@ -1,0 +1,15 @@
+Ticket ID: T-01
+Date: 2026-03-01
+Customer: Amna R.
+Subject: Cannot log in after password change
+Category: access
+Priority: High
+Status: resolved
+
+Issue:
+Amna changed her password yesterday. Today the login page says invalid
+password for amna@brightleaf.co. She is the workspace admin.
+
+Resolution notes:
+Confirmed email spelling. Asked her to request a fresh reset and check spam.
+Reset email arrived in 2 minutes. Login restored. No outage for other users.

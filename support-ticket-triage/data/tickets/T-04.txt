@@ -1,0 +1,15 @@
+Ticket ID: T-04
+Date: 2026-03-07
+Customer: Bilal H.
+Subject: Ticket list freezes on Chrome
+Category: bug
+Priority: Medium
+Status: resolved
+
+Issue:
+On Chrome 122, Bilal's ticket list freezes when he opens more than 200
+tickets. Firefox works fine. He can still create tickets.
+
+Resolution notes:
+Reproduced on large lists. Workaround: turn off "Show closed tickets".
+Engineering logged bug ND-882. Not a full outage.

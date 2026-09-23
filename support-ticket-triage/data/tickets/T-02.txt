@@ -1,0 +1,15 @@
+Ticket ID: T-02
+Date: 2026-03-03
+Customer: Omar K.
+Subject: Charged twice for March
+Category: billing
+Priority: High
+Status: resolved
+
+Issue:
+Omar sees two $49 charges dated March 1 for the same Team plan seat.
+He wants one charge reversed.
+
+Resolution notes:
+Duplicate charge confirmed. Issued a refund for the second charge to the
+original card. Told Omar the credit can take 3 to 5 business days.

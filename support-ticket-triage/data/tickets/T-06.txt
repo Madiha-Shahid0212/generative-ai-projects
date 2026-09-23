@@ -1,0 +1,15 @@
+Ticket ID: T-06
+Date: 2026-03-10
+Customer: Faraz A.
+Subject: Request dark mode
+Category: feature
+Priority: Low
+Status: closed
+
+Issue:
+Faraz asked for a dark mode theme in the agent inbox. He said bright
+screens hurt his eyes on night shifts.
+
+Resolution notes:
+Logged as feature idea ND-Idea-44. No timeline promised. Suggested
+browser dark reader as a temporary option.

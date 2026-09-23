@@ -1,0 +1,15 @@
+Ticket ID: T-03
+Date: 2026-03-05
+Customer: Sara M.
+Subject: How do I add a teammate?
+Category: how-to
+Priority: Low
+Status: resolved
+
+Issue:
+Sara wants to invite one teammate to her NovaDesk workspace. She cannot
+find the invite button.
+
+Resolution notes:
+Sent steps: Settings > Team > Invite. Explained each invite uses one seat.
+No bug found.

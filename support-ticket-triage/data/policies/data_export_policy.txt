@@ -1,0 +1,10 @@
+NovaDesk Data Export and Deletion Policy (v1.2)
+Last updated: 2026-03-05
+
+Workspace owners can export tickets and comments as CSV from Settings > Export.
+Exports are prepared within 24 hours. Agents must not email raw exports to
+personal Gmail or Yahoo addresses.
+
+Account deletion requests from workspace owners are completed within 30 days.
+During those 30 days, billing still applies unless the owner cancels the plan.
+Deleted workspaces cannot be restored after deletion is finished.

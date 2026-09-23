@@ -1,0 +1,15 @@
+NovaDesk Access and Response SLA Policy (v1.4)
+Last updated: 2026-02-01
+
+Password reset emails are sent within 5 minutes for verified accounts.
+If a reset email is missing, agents must first confirm the login email
+and ask the customer to check spam before escalating.
+
+Priority levels:
+- Critical: full product outage affecting all customers
+- High: billing charge errors or locked-out admins on paid plans
+- Medium: single-user bugs that still allow basic work
+- Low: how-to questions and feature ideas
+
+Critical tickets must get a first reply within 1 hour on business days.
+Low tickets may wait up to 2 business days for a first reply.

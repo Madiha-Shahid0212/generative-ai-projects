@@ -1,0 +1,18 @@
+Ticket ID: T-07
+Date: 2026-03-12
+Customer: Nadia P.
+Subject: Want full cash refund after 28 days
+Category: billing
+Priority: High
+Status: open
+
+Issue:
+Nadia bought the annual Team plan 28 days ago. Her team never finished
+setup. She now wants a full cash refund to her card.
+
+Agent reply so far:
+"We will process a full cash refund to your card within 3 business days."
+
+Internal note:
+This reply may conflict with the refund policy. Needs review before
+any payment is sent.

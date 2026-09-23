@@ -1,0 +1,16 @@
+Ticket ID: T-10
+Date: 2026-03-18
+Customer: Imran Q.
+Subject: Reset email never arrives
+Category: access
+Priority: High
+Status: resolved
+
+Issue:
+Imran cannot log in. He clicked "Forgot password" five times. No reset
+email arrived in inbox or spam for imran@northgate.io.
+
+Resolution notes:
+Email was typed wrong in the account as imran@northgate.lo. Corrected
+the login email after owner verification. New reset arrived in under
+5 minutes. Login worked.
