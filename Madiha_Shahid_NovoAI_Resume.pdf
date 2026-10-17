@@ -1,0 +1,363 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [3 0 R 4 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 5 0 R /Resources << /Font << /F1 7 0 R /F2 8 0 R /F3 9 0 R >> >> /Annots [10 0 R 11 0 R 12 0 R] >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 6 0 R /Resources << /Font << /F1 7 0 R /F2 8 0 R /F3 9 0 R >> >> >>
+endobj
+5 0 obj
+<< /Length 6875 >>
+stream
+/F2 16.0 Tf
+0.00 g
+BT 244.6 754.0 Td (Madiha M. Shahid) Tj ET
+/F1 9.2 Tf
+0.00 g
+BT 122.7 740.0 Td (AI Engineer | LLM Applications | RAG | Structured Outputs | Multi-Step AI Workflows) Tj ET
+/F1 8.2 Tf
+0.00 g
+BT 156.4 728.0 Td (Karachi, Pakistan \(Remote\)  |  +92 321 8997716  |  madihashahid212@gmail.com) Tj ET
+/F1 8.2 Tf
+0.00 g
+BT 164.3 717.0 Td (linkedin.com/in/madiha-shahid-a64091308  |  github.com/Madiha-Shahid0212) Tj ET
+/F2 10.5 Tf
+0.00 g
+BT 40.0 700.0 Td (PROFESSIONAL SUMMARY) Tj ET
+0.45 w 0.45 G
+40.0 696.0 m 572.0 696.0 l S
+0 g
+/F1 9.0 Tf
+0.00 g
+BT 40.0 685.0 Td (Final-year B.S. Computer Science student at KIET \(CGPA 3.6/4.0\) with industry experience progressing from AI/ML Intern) Tj ET
+/F1 9.0 Tf
+0.00 g
+BT 40.0 673.7 Td (to Junior AI/ML Engineer. Builds practical LLM applications and multi-step AI workflows that retrieve approved) Tj ET
+/F1 9.0 Tf
+0.00 g
+BT 40.0 662.4 Td (context, extract structured JSON, and validate model output. Returns a cited draft when retrieved evidence is missing) Tj ET
+/F1 9.0 Tf
+0.00 g
+BT 40.0 651.1 Td (or conflicting. Interested in reliable AI systems for document workflows, API integration, and evaluation.) Tj ET
+/F2 10.5 Tf
+0.00 g
+BT 40.0 628.8 Td (TECHNICAL SKILLS) Tj ET
+0.45 w 0.45 G
+40.0 624.8 m 572.0 624.8 l S
+0 g
+/F2 8.9 Tf
+BT 40.0 613.8 Td (Programming: ) Tj ET
+/F1 8.9 Tf
+BT 97.8 613.8 Td (Python, SQL, JavaScript) Tj ET
+/F2 8.9 Tf
+BT 40.0 602.7 Td (Machine Learning: ) Tj ET
+/F1 8.9 Tf
+BT 120.1 602.7 Td (scikit-learn, Pandas, NumPy, PyTorch, OpenCV, image classification, model evaluation) Tj ET
+/F2 8.9 Tf
+BT 40.0 591.6 Td (Generative AI: ) Tj ET
+/F1 8.9 Tf
+BT 106.8 591.6 Td (LLMs, prompt engineering, Gemini API, Qwen, Groq, LangChain, Retrieval-Augmented Generation \(RAG\)) Tj ET
+/F2 8.9 Tf
+BT 40.0 580.5 Td (Data, Retrieval & Validation: ) Tj ET
+/F1 8.9 Tf
+BT 173.5 580.5 Td (Chroma, Hugging Face embeddings, structured outputs, Pydantic, JSON / schema validation,) Tj ET
+/F1 8.9 Tf
+BT 40.0 569.4 Td (document retrieval) Tj ET
+/F2 8.9 Tf
+BT 40.0 558.3 Td (Integration & Automation: ) Tj ET
+/F1 8.9 Tf
+BT 155.7 558.3 Td (REST APIs, API integration, Node.js, React, Streamlit, n8n, Git, GitHub, multi-step workflow) Tj ET
+/F1 8.9 Tf
+BT 40.0 547.2 Td (automation) Tj ET
+/F2 8.9 Tf
+BT 40.0 536.1 Td (Model Workflows: ) Tj ET
+/F1 8.9 Tf
+BT 115.7 536.1 Td (Google Vertex AI, Vertex AI Edge, model export, local / on-device inference) Tj ET
+/F2 10.5 Tf
+0.00 g
+BT 40.0 514.0 Td (PROFESSIONAL EXPERIENCE) Tj ET
+0.45 w 0.45 G
+40.0 510.0 m 572.0 510.0 l S
+0 g
+/F2 9.4 Tf
+0.00 g
+BT 40.0 499.0 Td (Thriftops By SwagKicks  |  Karachi, Pakistan) Tj ET
+/F2 9.1 Tf
+0.00 g
+BT 40.0 487.8 Td (Junior AI/ML Engineer  |  January 2026 - April 2026) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 476.6 Td (-  Integrated AI/ML outputs into product workflows so model results could be reviewed inside application screens rather) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 465.6 Td (   than only in notebooks.) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 454.6 Td (-  Retrained and validated image-classification models for product damage, components, and image angles using Google) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 443.6 Td (   Vertex AI / Vertex AI Edge workflows.) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 432.6 Td (-  Exported models for local / on-device inference and evaluated the 4-class damage model on local samples against) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 421.6 Td (   defined pass/fail checks before product use.) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 410.6 Td (-  Built React.js and Node.js dashboard, sidebar, and profile screens backed by REST APIs to support model-review and) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 399.6 Td (   validation interfaces.) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 388.6 Td (-  Developed AI chatbot functionality that connected model outputs to day-to-day product flows.) Tj ET
+/F2 9.1 Tf
+0.00 g
+BT 40.0 374.6 Td (AI/ML Intern  |  November 2025 - December 2025) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 363.4 Td (-  Researched computer-vision retraining on Google Vertex AI for product images \(shoes and bags\) and documented) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 352.4 Td (   download, local testing, and on-device inference steps.) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 341.4 Td (-  Compared platform fit for CV retraining and summarized recommendations for local model deployment.) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 330.4 Td (-  Designed a sample React.js product dashboard to support model-review and testing workflows.) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 319.4 Td (-  Promoted to Junior AI/ML Engineer after the internship.) Tj ET
+/F2 9.4 Tf
+0.00 g
+BT 40.0 303.4 Td (Elevvo  |  Remote) Tj ET
+/F2 9.1 Tf
+0.00 g
+BT 40.0 292.2 Td (Machine Learning Intern  |  September 2025) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 281.0 Td (-  Built Python ML workflows with Pandas, NumPy, and scikit-learn for data preprocessing, training, and evaluation.) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 270.0 Td (-  Handled missing values, outliers, and categorical encoding; tuned experiments and documented reusable training steps.) Tj ET
+/F2 9.4 Tf
+0.00 g
+BT 40.0 254.0 Td (Family Business  |  Karachi, Pakistan) Tj ET
+/F2 9.1 Tf
+0.00 g
+BT 40.0 242.8 Td (Technical Support / API Integration  |  2023 - Present \(part-time\)) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 231.6 Td (-  Troubleshot and integrated API-based services into day-to-day business workflows.) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 220.6 Td (-  Translated operational requirements into technical steps for connecting systems and validating request/response) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 209.6 Td (   behavior.) Tj ET
+/F2 10.5 Tf
+0.00 g
+BT 40.0 182.6 Td (SELECTED PROJECTS) Tj ET
+0.45 w 0.45 G
+40.0 178.6 m 572.0 178.6 l S
+0 g
+/F2 9.2 Tf
+0.00 g
+BT 40.0 167.6 Td (Support Ticket Triage Desk) Tj ET
+/F3 8.2 Tf
+0.20 g
+BT 40.0 156.4 Td (Python, LangChain, Hugging Face, Chroma, Qwen, Streamlit) Tj ET
+0.00 g
+/F1 8.8 Tf
+0.00 g
+BT 46.0 145.8 Td (-  Built a retrieve-then-generate RAG pipeline: chunk tickets/policies, embed with Hugging Face sentence-transformers,) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 134.8 Td (   store in Chroma, and send only top-k chunks plus the new ticket to Qwen.) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 123.8 Td (-  Wrote a system prompt that forbids invented policy, requires JSON only, and prefers retrieved policy when ticket text) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 112.8 Td (   conflicts.) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 101.8 Td (-  Validated replies with a Pydantic schema \(category, priority, similar ticket ids, draft reply, quotes, notes\); strips) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 90.8 Td (   markdown fences and rejects schema-invalid JSON.) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 79.8 Td (-  Tested a built-in policy-conflict case \(refund window vs. an over-promised ticket\) so the draft stays grounded in) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 68.8 Td (   retrieved text.) Tj ET
+/F2 9.2 Tf
+0.00 g
+BT 40.0 54.8 Td (Promise vs Fine Print) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Length 3705 >>
+stream
+/F3 8.2 Tf
+0.20 g
+BT 40.0 754.0 Td (Python, Streamlit, pypdf, NumPy, Gemini API) Tj ET
+0.00 g
+/F1 8.8 Tf
+0.00 g
+BT 46.0 743.4 Td (-  Built a document-comparison RAG app: extract PDF pages, chunk text, embed both sources, retrieve the closest chunks) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 732.4 Td (   per source, then ask Gemini using only those chunks.) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 721.4 Td (-  Returned structured JSON with quotes, chunk ids, file/page citations, and a verdict of Match, Conflict, or Missing.) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 710.4 Td (-  Rejected invalid model JSON; the model never receives the full PDFs.) Tj ET
+/F2 9.2 Tf
+0.00 g
+BT 40.0 696.4 Td (Job Aggregator - Multi-Step AI Workflow) Tj ET
+/F3 8.2 Tf
+0.20 g
+BT 40.0 685.2 Td (n8n, Groq, REST APIs, Google Sheets, Gmail) Tj ET
+0.00 g
+/F1 8.8 Tf
+0.00 g
+BT 46.0 674.6 Td (-  Built a scheduled n8n workflow that retrieves jobs from APIs, normalizes fields, drops duplicates, and calls Groq to) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 663.6 Td (   score fit, pick a resume variant, and decide the apply method.) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 652.6 Td (-  Logged title, company, location, score, and apply method to Google Sheets; sent Gmail only when an application email) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 641.6 Td (   was present.) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 630.6 Td (-  Tested decision thresholds so weak matches were filtered before logging.) Tj ET
+/F2 9.2 Tf
+0.00 g
+BT 40.0 616.6 Td (Startup Idea Validator) Tj ET
+/F3 8.2 Tf
+0.20 g
+BT 40.0 605.4 Td (Python, Streamlit, Gemini API) Tj ET
+0.00 g
+/F1 8.8 Tf
+0.00 g
+BT 46.0 594.8 Td (-  Built a sequential multi-agent pipeline: Founder Agent expands a raw idea; Investor and Market Analyst agents then) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 583.8 Td (   review that expansion independently.) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 572.8 Td (-  Gave each agent its own system prompt and role; investor and analyst do not read each other's output.) Tj ET
+/F2 9.2 Tf
+0.00 g
+BT 40.0 558.8 Td (Resume to Interview Questions Generator) Tj ET
+/F3 8.2 Tf
+0.20 g
+BT 40.0 547.6 Td (Python, Streamlit, Gemini API) Tj ET
+0.00 g
+/F1 8.8 Tf
+0.00 g
+BT 46.0 537.0 Td (-  Extracted structured JSON from unstructured resume text \(candidate name, skills, weak areas, 5-7 interview questions,) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 526.0 Td (   difficulty\).) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 46.0 515.0 Td (-  Rejected replies that failed JSON parse, missing keys, wrong list types, or an invalid difficulty value.) Tj ET
+/F2 10.5 Tf
+0.00 g
+BT 40.0 490.0 Td (EDUCATION) Tj ET
+0.45 w 0.45 G
+40.0 486.0 m 572.0 486.0 l S
+0 g
+/F2 9.1 Tf
+0.00 g
+BT 40.0 475.0 Td (B.S. Computer Science | Karachi Institute of Economics & Technology \(KIET\)) Tj ET
+/F3 8.2 Tf
+0.20 g
+BT 40.0 463.8 Td (CGPA 3.6/4.0 | Expected 2027) Tj ET
+0.00 g
+/F1 8.7 Tf
+0.00 g
+BT 40.0 453.2 Td (Coursework: Machine Learning, Artificial Intelligence, Data Structures & Algorithms, Database Systems, Computer Networks,) Tj ET
+/F1 8.7 Tf
+0.00 g
+BT 40.0 442.2 Td (Operating Systems.) Tj ET
+/F2 9.1 Tf
+0.00 g
+BT 40.0 429.2 Td (Intermediate \(CS\) | NCR CET College, Karachi) Tj ET
+/F3 8.2 Tf
+0.20 g
+BT 40.0 418.0 Td (2021 - 2022) Tj ET
+0.00 g
+/F2 10.5 Tf
+0.00 g
+BT 40.0 394.4 Td (CERTIFICATIONS) Tj ET
+0.45 w 0.45 G
+40.0 390.4 m 572.0 390.4 l S
+0 g
+/F1 8.8 Tf
+0.00 g
+BT 40.0 379.4 Td (Google Cloud / Coursera - Introduction to AI and Machine Learning | September 2025) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 40.0 368.3 Td (Simplilearn SkillUp - Deep Learning for Beginners | July 2026) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 40.0 357.2 Td (Deloitte / Forage - Data Analytics Job Simulation | June 2026) Tj ET
+/F1 8.8 Tf
+0.00 g
+BT 40.0 346.1 Td (HackerRank - Python \(Basic\) | August 2025) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >>
+endobj
+10 0 obj
+<< /Type /Annot /Subtype /Link /Rect [357.2 726.0 455.6 737.0] /Border [0 0 0] /A << /S /URI /URI (mailto:madihashahid212@gmail.com) >> >>
+endobj
+11 0 obj
+<< /Type /Annot /Subtype /Link /Rect [164.3 715.0 317.8 726.0] /Border [0 0 0] /A << /S /URI /URI (https://www.linkedin.com/in/madiha-shahid-a64091308/) >> >>
+endobj
+12 0 obj
+<< /Type /Annot /Subtype /Link /Rect [337.5 715.0 447.7 726.0] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Madiha-Shahid0212) >> >>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000298 00000 n 
+0000000444 00000 n 
+0000007371 00000 n 
+0000011128 00000 n 
+0000011198 00000 n 
+0000011273 00000 n 
+0000011351 00000 n 
+0000011506 00000 n 
+0000011681 00000 n 
+trailer
+<< /Size 13 /Root 1 0 R >>
+startxref
+11840
+%%EOF
