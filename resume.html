@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<!--
+  WSS one-page CV source.
+  Re-export PDF (Chrome):
+  google-chrome --headless=new --no-sandbox --disable-gpu --no-pdf-header-footer \
+    --print-to-pdf=Madiha_M_Shahid_WSS_CV.pdf file://$PWD/resume.html
+  Or open resume.html in Chrome → Print → Save as PDF, paper size A4, margins default, headers/footers off.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Madiha M. Shahid — CV</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 11.5mm 13.5mm 11.5mm 13.5mm;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #222;
+      font-family: "Liberation Sans", "Noto Sans", Arial, Helvetica, sans-serif;
+      font-size: 9.55pt;
+      line-height: 1.32;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    a {
+      color: #1b365d;
+      text-decoration: none;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 8px;
+    }
+
+    h1 {
+      margin: 0 0 2px;
+      font-size: 18.5pt;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+      color: #1b365d;
+      line-height: 1.15;
+    }
+
+    .headline {
+      margin: 0 0 5px;
+      font-size: 10pt;
+      font-weight: 600;
+      color: #3a3a3a;
+    }
+
+    .contact {
+      font-size: 8.7pt;
+      color: #333;
+      line-height: 1.45;
+    }
+
+    .contact a { color: #1b365d; }
+
+    section { margin: 0 0 7.5px; }
+
+    h2 {
+      margin: 0 0 5px;
+      padding: 0 0 2px;
+      font-size: 10pt;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #1b365d;
+      border-bottom: 1.4px solid #1b365d;
+    }
+
+    .summary {
+      margin: 0;
+      text-align: justify;
+      hyphens: auto;
+    }
+
+    .skill {
+      margin: 0 0 1.5px;
+    }
+
+    .skill b {
+      display: inline-block;
+      min-width: 128px;
+      color: #1b365d;
+      font-weight: 700;
+    }
+
+    .job {
+      margin: 0 0 6px;
+    }
+
+    .job:last-child { margin-bottom: 0; }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+    }
+
+    .org {
+      font-weight: 700;
+      color: #1b2e4a;
+    }
+
+    .place, .dates {
+      font-size: 9pt;
+      color: #444;
+      white-space: nowrap;
+    }
+
+    .role {
+      font-weight: 700;
+      font-size: 9.4pt;
+    }
+
+    ul {
+      margin: 2px 0 0;
+      padding: 0 0 0 14px;
+    }
+
+    li {
+      margin: 0 0 1.5px;
+      padding: 0;
+    }
+
+    .proj-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 10px;
+      margin-top: 2px;
+    }
+
+    .proj-name { font-weight: 700; color: #1b2e4a; }
+
+    .stack {
+      font-size: 8.5pt;
+      color: #4a4a4a;
+      font-style: italic;
+      text-align: right;
+    }
+
+    .edu-meta {
+      color: #444;
+      font-size: 9.1pt;
+    }
+
+    .certs li { margin-bottom: 1px; }
+
+    @media screen {
+      body {
+        max-width: 210mm;
+        min-height: 297mm;
+        margin: 16px auto;
+        padding: 11.5mm 13.5mm;
+        box-shadow: 0 0 0 1px #ddd, 0 8px 28px rgba(0,0,0,0.08);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Madiha M. Shahid</h1>
+    <p class="headline">AI/ML Engineer | Python Developer | Generative AI &amp; Software Development</p>
+    <p class="contact">
+      Karachi, Pakistan
+      &nbsp;|&nbsp;
+      <a href="tel:+923218997716">+92 321 8997716</a>
+      &nbsp;|&nbsp;
+      <a href="mailto:madihashahid212@gmail.com">madihashahid212@gmail.com</a><br />
+      <a href="https://www.linkedin.com/in/madiha-shahid-a64091308/">linkedin.com/in/madiha-shahid-a64091308</a>
+      &nbsp;|&nbsp;
+      <a href="https://github.com/Madiha-Shahid0212">github.com/Madiha-Shahid0212</a>
+    </p>
+  </header>
+
+  <section>
+    <h2>Professional Summary</h2>
+    <p class="summary">
+      B.S. Computer Science student at KIET (CGPA 3.6/4.0, expected June 2027) with industry experience progressing from AI/ML Intern to Junior AI/ML Developer.
+      Builds Python applications, computer-vision workflows, and full-stack tools that call LLM APIs and deliver results through REST-backed interfaces.
+      Comfortable moving between model evaluation, API integration, and frontend/backend implementation.
+    </p>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <p class="skill"><b>Programming:</b> Python, JavaScript, Java, C#</p>
+    <p class="skill"><b>Backend &amp; APIs:</b> Django, Node.js, REST APIs, API integration</p>
+    <p class="skill"><b>Frontend:</b> React.js, HTML, CSS</p>
+    <p class="skill"><b>AI / ML:</b> scikit-learn, Pandas, NumPy, PyTorch, computer vision, image classification, LLMs, Gemini API, LangChain, RAG</p>
+    <p class="skill"><b>Tools &amp; Platforms:</b> Git, GitHub, Postman, Google Cloud / Vertex AI, n8n</p>
+    <p class="skill"><b>Data &amp; Storage:</b> SQL, MySQL, Chroma</p>
+  </section>
+
+  <section>
+    <h2>Professional Experience</h2>
+
+    <div class="job">
+      <div class="row">
+        <span class="org">Thriftops By SwagKicks</span>
+        <span class="place">Karachi, Pakistan</span>
+      </div>
+
+      <div class="row">
+        <span class="role">Junior AI/ML Developer</span>
+        <span class="dates">January 2026 – April 2026</span>
+      </div>
+      <ul>
+        <li>Developed React.js dashboard components and Node.js functionality integrated with REST APIs.</li>
+        <li>Integrated AI model outputs into product workflows and evaluated computer-vision model results.</li>
+        <li>Retrained damage, component, and angle image-classification models using Google Vertex AI.</li>
+        <li>Contributed to product-related AI workflows and model-review functionality.</li>
+      </ul>
+
+      <div class="row" style="margin-top:5px;">
+        <span class="role">AI/ML Intern</span>
+        <span class="dates">November 2025 – December 2025</span>
+      </div>
+      <ul>
+        <li>Built a sample React.js dashboard for product/model review and testing.</li>
+        <li>Documented workflows for model downloads, local testing, and on-device inference.</li>
+        <li>Supported AI model evaluation and product workflow development.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="row">
+        <span class="org">Elevvo</span>
+        <span class="place">Remote</span>
+      </div>
+      <div class="row">
+        <span class="role">Machine Learning Intern</span>
+        <span class="dates">September 2025</span>
+      </div>
+      <ul>
+        <li>Used Python and scikit-learn for data cleaning, preprocessing, model training, hyperparameter tuning, and evaluation.</li>
+        <li>Handled missing values, outliers, and categorical encoding; evaluated model performance.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Selected Projects</h2>
+
+    <div class="job">
+      <div class="proj-head">
+        <span class="proj-name">Explain Like I'm a Bot</span>
+        <span class="stack">React.js, Django, Gemini API</span>
+      </div>
+      <ul>
+        <li>Built a full-stack app with a React frontend and Django JSON API that calls Gemini for persona-based explanations.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="proj-head">
+        <span class="proj-name">Support Ticket Triage Desk</span>
+        <span class="stack">Python, LangChain, Chroma, Qwen, RAG</span>
+      </div>
+      <ul>
+        <li>Built a retrieve-then-generate workflow that pulls ticket/policy evidence from Chroma and returns evidence-grounded structured JSON.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="proj-head">
+        <span class="proj-name">Job Aggregator Automation</span>
+        <span class="stack">n8n, Groq, REST APIs, Google Sheets, Gmail</span>
+      </div>
+      <ul>
+        <li>Built an n8n workflow that collects job listings, drops duplicates, scores relevance with Groq, logs results to Google Sheets, and sends Gmail when an application email is present.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="row">
+      <span class="org">B.S. Computer Science | KIET University, Karachi</span>
+      <span class="dates">Expected June 2027</span>
+    </div>
+    <div class="edu-meta">CGPA 3.6/4.0 | Currently sixth semester</div>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <ul class="certs">
+      <li>Introduction to AI and Machine Learning — Google Cloud / Coursera, 2025</li>
+      <li>Deep Learning for Beginners — Simplilearn SkillUp, 2026</li>
+      <li>Data Analytics Job Simulation — Deloitte / Forage, 2026</li>
+      <li>Python (Basic) — HackerRank, 2025</li>
+    </ul>
+  </section>
+</body>
+</html>
