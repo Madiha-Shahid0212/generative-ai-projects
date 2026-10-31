@@ -11,16 +11,16 @@
   <meta charset="UTF-8" />
   <title>Madiha M. Shahid — AI Engineer</title>
   <style>
-    @page { size: A4; margin: 11mm 13mm 10.5mm 13mm; }
+    @page { size: A4; margin: 9.5mm 12mm 9mm 12mm; }
     * { box-sizing: border-box; }
     html, body {
       margin: 0;
       padding: 0;
       background: #fff;
       color: #222;
-      font-family: "Liberation Sans", "Noto Sans", Arial, Helvetica, sans-serif;
-      font-size: 9.2pt;
-      line-height: 1.28;
+      font-family: Arial, "Liberation Sans", Calibri, Helvetica, sans-serif;
+      font-size: 9.5pt;
+      line-height: 1.26;
       -webkit-print-color-adjust: exact;
       print-color-adjust: exact;
     }
@@ -28,18 +28,19 @@
     header { text-align: center; margin-bottom: 7px; }
     h1 {
       margin: 0 0 1px;
-      font-size: 18pt;
+      font-size: 19pt;
       line-height: 1.12;
       color: #1b365d;
       letter-spacing: 0.2px;
     }
     .headline { margin: 0 0 4px; font-size: 10pt; font-weight: 700; color: #333; }
     .contact { margin: 0; font-size: 8.6pt; color: #333; line-height: 1.42; }
-    section { margin: 0 0 5.5px; }
+    section { margin: 0 0 4.5px; }
+    h2 { line-height: 1.15; }
     h2 {
       margin: 0 0 4px;
       padding-bottom: 1px;
-      font-size: 9.7pt;
+      font-size: 11pt;
       letter-spacing: 0.07em;
       text-transform: uppercase;
       color: #1b365d;
@@ -67,7 +68,7 @@
         width: 210mm;
         min-height: 297mm;
         margin: 12px auto;
-        padding: 11mm 13mm 10.5mm;
+        padding: 9.5mm 12mm 9mm;
         box-shadow: 0 0 0 1px #ddd;
       }
     }
@@ -119,7 +120,7 @@
       <ul>
         <li>Integrated AI model outputs into product workflows and built React.js and Node.js screens, backed by REST APIs, for model review.</li>
         <li>Retrained image-classification models for product damage, components, and image angles using Google Vertex AI / Vertex AI Edge.</li>
-        <li>Exported models for local and on-device inference and checked the 4-class damage model on local samples against pass/fail rules.</li>
+        <li>Exported models for local and on-device inference and evaluated the 4-class product damage classification model using local test samples and predefined pass/fail criteria.</li>
       </ul>
       <div class="row">
         <span class="role">AI/ML Intern</span>
@@ -155,7 +156,7 @@
         <span class="stack">Python, LangChain, Hugging Face, Chroma, Qwen, RAG</span>
       </div>
       <ul>
-        <li>Built a retrieve-then-generate RAG flow: chunk tickets and policies, embed with Hugging Face, store in Chroma, and send only the top matches to Qwen.</li>
+        <li>Retrieved relevant ticket and policy chunks from Chroma and supplied the top matches to Qwen for context-grounded response generation.</li>
         <li>Validated replies with a schema for category, priority, similar tickets, quotes, and a draft reply. Invalid JSON is rejected, and policy text overrides a conflicting ticket.</li>
       </ul>
     </div>
